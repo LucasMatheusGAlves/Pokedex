@@ -1,0 +1,13 @@
+.pagination__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination__container button {
+  background-color: #f5ce00;
+  border: 2px solid #465da9;
+  width: 25px;
+  cursor: pointer;
+}

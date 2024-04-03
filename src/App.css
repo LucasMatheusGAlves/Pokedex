@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.notfound__text {
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 20px;
+  color: #f5ce00;
+  font-weight: bold;
+}
+
+body {
+  background-color: #d0172f;
+  color: #fff;
+  font-family: "Inconsolata", sans-serif;
+}
