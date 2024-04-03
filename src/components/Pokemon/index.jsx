@@ -5,24 +5,24 @@ import FavoriteContext from "../../contexts/favoritesContext";
 import { motion } from 'framer-motion';
 
 const typeBackgrounds = {
-  normal: "no-repeat #939ba3 center/55px url(../public/imgs/normal.png)",
-  fire: "no-repeat #f49a3e center/55px url(../public/imgs/fire.png)",
-  water: "no-repeat #538edd center/55px url(../public/imgs/water.png)",
-  electric: "no-repeat #f3d500 center/55px url(../public/imgs/electric.png)",
-  grass: "no-repeat #4ec144 center/55px url(../public/imgs/grass.png)",
-  ice: "no-repeat #67d1bf center/55px url(../public/imgs/ice.png)",
-  fighting: "no-repeat #d5326a center/55px url(../public/imgs/fighting.png)",
-  poison: "no-repeat #b361d1 center/55px url(../public/imgs/poison.png)",
-  ground: "no-repeat #dc7533 center/55px url(../public/imgs/ground.png)",
-  flying: "no-repeat #91a7e4 center/55px url(../public/imgs/flying.png)",
-  psychic: "no-repeat #f26876 center/55px url(../public/imgs/psychic.png)",
-  bug: "no-repeat #86c600 center/55px url(../public/imgs/bug.png)",
-  rock: "no-repeat #c3b883 center/55px url(../public/imgs/rock.png)",
-  ghost: "no-repeat #5765b2 center/55px url(../public/imgs/ghost.png)",
-  dragon: "no-repeat #3869cb center/55px url(../public/imgs/dragon.png)",
-  dark: "no-repeat #5c5367 center/55px url(../public/imgs/dark.png)",
-  steel: "no-repeat #658da4 center/55px url(../public/imgs/steel.png)",
-  fairy: "no-repeat #f486ed center/55px url(../public/imgs/fairy.png)"
+  normal: "no-repeat #939ba3 center/55px url(./imgs/normal.png)",
+  fire: "no-repeat #f49a3e center/55px url(./imgs/fire.png)",
+  water: "no-repeat #538edd center/55px url(./imgs/water.png)",
+  electric: "no-repeat #f3d500 center/55px url(./imgs/electric.png)",
+  grass: "no-repeat #4ec144 center/55px url(./imgs/grass.png)",
+  ice: "no-repeat #67d1bf center/55px url(./imgs/ice.png)",
+  fighting: "no-repeat #d5326a center/55px url(./imgs/fighting.png)",
+  poison: "no-repeat #b361d1 center/55px url(./imgs/poison.png)",
+  ground: "no-repeat #dc7533 center/55px url(./imgs/ground.png)",
+  flying: "no-repeat #91a7e4 center/55px url(./imgs/flying.png)",
+  psychic: "no-repeat #f26876 center/55px url(./imgs/psychic.png)",
+  bug: "no-repeat #86c600 center/55px url(./imgs/bug.png)",
+  rock: "no-repeat #c3b883 center/55px url(./imgs/rock.png)",
+  ghost: "no-repeat #5765b2 center/55px url(./imgs/ghost.png)",
+  dragon: "no-repeat #3869cb center/55px url(./imgs/dragon.png)",
+  dark: "no-repeat #5c5367 center/55px url(./imgs/dark.png)",
+  steel: "no-repeat #658da4 center/55px url(./imgs/steel.png)",
+  fairy: "no-repeat #f486ed center/55px url(./imgs/fairy.png)"
 };
 
 const typeColors = {
@@ -60,7 +60,7 @@ const Pokemon = (props) => {
   const heart = favoritePokemons.includes(pokemon.name) ? "💓" : "🤍" 
   const typeBackground = typeBackgrounds[pokemon.types[0].type.name];
 
-  const imgDefault = "../../../public/imgs/pokeball.png";
+  const imgDefault = "./imgs/pokeball.png";
   
   return (
     <div className="pokemon__container" style={{background: typeBackground}}>
